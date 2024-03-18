@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.roor li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.roor li a{
+    text-decoration: none;
+    color: purple;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web{
+    background-color: rgb(65, 178, 212);
+    width: 98%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.roor li a:hover{
+    background-color: rgb(27, 136, 136);
+    color: orange;
+}
+.submenu{
+   width: 200px;
+   background-color: aquamarine;
+   color: purple; 
+   min-height: 80px;
+   display: none;
+   position: absolute;
+}
+.submenu li{
+    list-style: none;
+}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: purple;
+    display: block;
+    border: 1px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+}
+.roor li:hover .submenu{display: block;
+background-color: #131;
+color: white;
+transition: ease-in-out 0.35s;}
+.submenu li a:hover{
+    background-color: aquamarine;
+    color: orange;
+    transform: ease-in-out 0.35s;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+.develop{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.image-container{
+    width: 30%;
+}
+  
+.image-container img{
+    max-width: 100%;
+    height: auto;
+}
+  
